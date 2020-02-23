@@ -1,3 +1,57 @@
+0.0.26
+    - Bug Fix CSV Multiline issue
+    - Correct TypeScript usage
+
+0.0.25
+    - Modify Travis version to check up to node 12
+    - Added proxy agent
+    - Modify test cases to use host to cross across different region
+    - Add example for the read stream
+    - Add example for the feeds upload
+
+0.0.24
+  - Add Subscription in Typescript definition
+  - Correct Documentation
+  - Allow user to change response type into XML format
+  - Allow user to change content type for request
+
+0.0.23
+  - Bug Fix for Feed Result charset
+
+0.0.22
+  - Bug Fix Default value for XML parsing
+  - Add Support for the Subscription APIs, Recommendations API
+  - Add Example for CreateSubscription, DeleteSubscription, ListSubscriptions, RegisterDestination
+  - Add Example for GetLastUpdatedTimeForRecommendations, ListRecommendations
+
+0.0.21
+  - Handle for non content type responses
+  - Bug fix for GetMyPriceForASIN and similar other products API
+  - Add example, test case for GetMyPriceForASIN
+  - Add test case for failure/error responses
+  - Add support for RequestReport API
+  - Add example for GetMyFeesEstimate in Products
+  - Add force check for the XML string
+
+0.0.19
+  - Correct lint and increase test case timeout
+  - Added Status Code in Error Response.
+  - Added Status Code in Success Response
+  - Remove OS Dependent Modules
+  - Use the light version of the iconv
+  - Fix Tab delimited CSV Report
+  - Removes node-expat & xml2json
+  - Add xml parser package as xml2js
+
+0.0.18
+  - Add basic Test cases
+  - Add jshint lint checking
+  - Code Reformatting
+  - Add support for parsing special characters
+  - Add support for API which return data as binary file format
+  - Extend support for GetLowestPricedOffersForASIN, GetLowestPricedOffersForSKU and other product methods
+  - Added test cases for Feeds, Finances, Fulfillment Inventory, Fulfillment Outbound Shipment, Fulfillment Inbound Shipment, Products, Orders, Sellers
+
 0.0.17
   - Extend support for TypeScript typed definition : feeds, finances, fulfillmentInboundShipment, fulfillmentInventory, fulfillmentOutboundShipment, merchantFulfillment, orders, products, sellers
 
@@ -8,8 +62,8 @@
 
 0.0.15
   - Bug fixed ResponseMetadata (RequestId) in success response
-  - Added throttling details in non-xml response 
-  
+  - Added throttling details in non-xml response
+
 0.0.14
   - Clean code
   - Added typeScript example of reports
@@ -43,17 +97,17 @@
 
 0.0.9 July 31, 2017
   - Added ResponseMetadata (RequestId) in success response
-  
+
 0.0.8 July 29, 2017
   - Matching keywords, Get Report List, Get Report
-  
+
 0.0.7 July 19, 2017
   - Simplify JSON Object, Added Debug Module
   - Add Example for Get Matching Product and Get Matching Product for Multiple ASIN
-  
+
 0.0.6 July 14, 2017
   - Add Orders API, Feeds API, Finances API, FulfillmentInboundShipment API, FulfillmentInventory API
-  
+
 0.0.5 July 14, 2017
   - Add Products API, Added Check for Node 7
 

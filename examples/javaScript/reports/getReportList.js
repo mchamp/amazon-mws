@@ -6,12 +6,11 @@ var accessSecret = process.env.AWS_SECRET_ACCESS_KEY || 'YOUR_SECRET';
 var amazonMws = require('../../../lib/amazon-mws')(accessKey, accessSecret);
 
 var reportRequest = function () {
-
     amazonMws.reports.search({
         'Version': '2009-01-01',
         'Action': 'GetReportList',
         'SellerId': 'SELLER_ID',
-        'MWSAuthToken': 'MWS_AUTH_TOKEN',
+        'MWSAuthToken': 'MWS_AUTH_TOKEN'
         //'ReportTypeList.Type.1': 'REPORT_TYPE_LIST' //optional
     }, function (error, response) {
         if (error) {
